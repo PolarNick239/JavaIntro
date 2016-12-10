@@ -5,11 +5,11 @@ public class Forum {
     public static void main(String[] args) {
         Human vasya = new Human(14, "Васька из третьего подъезда");
         ElephantsFan fan = new ElephantsFan(13, "Восьмиклассник");
-        Terminator terminator = new Terminator(3, "2012239");
+        NotRobot notRobot = new NotRobot(3, "Серия 2013239 Номер 42");
         UnicornsVisionary person = new UnicornsVisionary(22, "Коля");
         Human isaakiy = new Human(116, "Исаакий");
 
-        Human[] people = new Human[]{vasya, fan, terminator, person, isaakiy};
+        Human[] people = new Human[]{vasya, fan, notRobot, person, isaakiy};
         System.out.println("В дискуссии принимают участие:");
         for (Human human: people) {
             System.out.println(" - " + human);  // 2.1 TODO доделать функцию toString() в классе ElephantsFan

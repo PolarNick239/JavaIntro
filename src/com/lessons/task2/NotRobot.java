@@ -1,9 +1,9 @@
 package com.lessons.task2;
 
-public class Terminator extends Human {
+public class NotRobot extends Human {
 
-    public Terminator(int age, String name) {
-        super(age, "Terminator " + name);
+    public NotRobot(int age, String name) {
+        super(age, "Человек (а не робот) " + name);
     }
 
     public String talk() {
